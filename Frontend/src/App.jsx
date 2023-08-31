@@ -4,9 +4,7 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <dev>
-
-    </dev>
+    <h1>hello</h1>
      
   )
 }
