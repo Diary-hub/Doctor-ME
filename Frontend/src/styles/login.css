@@ -37,13 +37,16 @@ body {
 }
 
 
-.wrapper h1{
+.wrapper h1 {
     font-size: 4.063rem;
     text-align: center;
+    text-shadow: 0px 2px 5px #3a3a3a;
+
 }
 .wrapper h4{
     font-size: 1.6rem;
     color: black;
+    
     text-align: center;
 }
 
