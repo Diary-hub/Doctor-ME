@@ -25,6 +25,16 @@ def loginPage_get():
     return render_template("index.html")
 
 
+@app.get("/index.html")
+def loginPage_get1():
+    return render_template("index.html")
+
+
+@app.get("/login.html")
+def loginPage_get2():
+    return render_template("login.html")
+
+
 @app.post("/gptit")
 def getAnswer():
     resived = request.get_json()
