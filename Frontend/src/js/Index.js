@@ -152,7 +152,7 @@ const handleOutgoingChat = () => {
     const html = `<div class="chat-content">                
                     <div class="chat-details">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="user-img">
-                        <p>${userText}</p>
+                        <p style="color:white;">${userText}</p>
                     </div>
                 </div>`;
 
